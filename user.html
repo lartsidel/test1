@@ -19,7 +19,7 @@
   <!-- navbar start -->
   <nav class="blue darken-4 top-navbar z-depth-2">
     <div class="nav-wrapper">
-      <a href="#!" class="hide-on-med-and-up white-text">Home</a>
+      <a href="#!" class="hide-on-med-and-up white-text">User Management</a>
       <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       <ul class="left hide-on-med-and-down">
         <li><a class="blue-text text-lighten-4" href="">Home</a></li>
@@ -74,17 +74,35 @@
   </ul>
   <!-- navbar end -->
 
-  <!-- home section start -->
-   <section class="flex-c-m sizefull flex-col p-l-20 p-r-20 p-t-50 filter_shadow ">
-    <img class="w-full max-w-250" src="assets/img/BMW_logo_big_transparent_png.png " alt="">
-    <a href="https://bmwusa.com" class="waves-effect waves-light btn blue darken-4 w-full max-w-350 m-t-10 rounded_pill ">BMW Site</a>
-    <a href="https://codeyad.com" class="waves-effect waves-light btn blue darken-4 w-full max-w-350 m-t-10 rounded_pill ">Codeyad</a>
+  <!-- content section start -->
+  <section id="top_actions_section">
+
+    <!-- add button -->
+    <div class="flex-c-m m-t-10">
+      <button class="waves-effect waves-light btn blue lighten-4 p-l-30 p-r-30 w-full max-w-250 flex-c-m rounded_pill">
+          <i class="material-icons m-r-5">add</i>
+          Add User
+
+      </button>
+    </div>
+
+    
+    <!-- search selection -->
+    <div class="row">
+      <div class="input-field col s12">
+        <input id="search" type="text" class="validate">
+        <label for="search">
+          <i class="material-icons pos-relative top-3 tiny ">search</i>
+          Search
+        </label>
+      </div>
+    </div>
 
 
 
 
-   </section>
-  <!-- home section End -->
+  </section>
+  <!-- content section End -->
 
   <script src="assets/materialize/js/materialize.min.js"></script>
   <script src="assets/js/main.js"></script>
