@@ -75,11 +75,11 @@
   <!-- navbar end -->
 
   <!-- content section start -->
-  <section id="top_actions_section">
+  <section id="top_actions_section" class="row m-b-0 top-margin">
 
     <!-- add button -->
-    <div class="flex-c-m m-t-10">
-      <button class="waves-effect waves-light btn blue lighten-4 p-l-30 p-r-30 w-full max-w-250 flex-c-m rounded_pill">
+    <div class=" p-l-10 p-r-10 col s12 m3 l3 ">
+      <button class="waves-effect waves-light btn blue lighten-4 p-l-10 p-r-10 w-full flex-c-m rounded_pill">
           <i class="material-icons m-r-5">add</i>
           Add User
 
@@ -88,24 +88,88 @@
 
     
     <!-- search selection -->
-    <div class="row">
-      <div class="input-field col s12">
+    <div class=" p-l-10 p-r-10 col s12 m9 l6">
+      <div class="input-field">
         <input id="search" type="text" class="validate">
-        <label for="search">
+        <label class="flex-c-m show-on-medium-and-up" for="search">
           <i class="material-icons pos-relative top-3 tiny ">search</i>
           Search
         </label>
       </div>
     </div>
+    <div class="col l3 hide-on-med-and-down"></div>
 
 
 
 
   </section>
-  <!-- content section End -->
+  
+  <!-- users section -->
+  <section class="">
+    <ul class="collapsible">
+      <li class="user_list_item ">
+        <div class="collapsible-header">
+          <i class="material-icons blue-text text-lighten-2 user_list_arrow_icon trans-0-5">arrow_drop_down_circle</i>
+          AmirHosein Honarvar
+        </div>
+        
+        <div class="collapsible-body">
+          <div class="p-all-5">
+            <span class="f-bold">Username:</span>
+            <span>lhenrixl</span>
+          </div>
+          <div class="p-all-5">
+            <span class="f-bold">Email:</span>
+            <span>ahha7697@gmail.com</span>
+          </div>
+          <div class="p-all-5">
+            <span class="f-bold">Address:</span>
+            <span>Tehran - Example street</span>
+          </div>
+          <div class="p-all-5 flex-l-m">
+            <span class="f-bold">Actions:</span>
+            <i class="material-icons red-text m-r-5 m-l-5" >delete_forever</i>
+            <i class="material-icons orange-text text-darken-2 m-r-5 m-l-5" >edit</i>
+          </div>
+        </div>
+      </li>
+
+      <li class="user_list_item  ">
+        <div class="collapsible-header">
+          <i class="material-icons blue-text text-lighten-2 user_list_arrow_icon trans-0-5">arrow_drop_down_circle</i>
+          Iran Baharloo
+        </div>
+        
+        <div class="collapsible-body">
+          <div class="p-all-5">
+            <span class="f-bold">Username:</span>
+            <span>spring_iran</span>
+          </div>
+          <div class="p-all-5">
+            <span class="f-bold">Email:</span>
+            <span>baharloo.iran@gmail.com</span>
+          </div>
+          <div class="p-all-5">
+            <span class="f-bold">Address</span>
+            <span>Tehran - Example street</span>
+          </div>
+          <div class="p-all-5 flex-l-m">
+            <span class="f-bold">Actions:</span>
+            <i class="material-icons red-text m-l-5 m-r-5" >delete_forever</i>
+            <i class="material-icons orange-text text-darken-2 m-l-5 m-r-5" >edit</i>
+          </div>
+        </div>
+      </li>
+    </ul>
+
+
+
+
+  </section>
 
   <script src="assets/materialize/js/materialize.min.js"></script>
   <script src="assets/js/main.js"></script>
+  <script src="assets/js/user.js"></script>
 </body>
 
 </html>

@@ -1,3 +1,28 @@
-.top-navbar{
-    box-shadow: 0 0 20px rgb(172, 172, 255);
+@media (min-width:600px){
+    .top-navbar{
+        box-shadow: 0 0 20px rgb(124, 124, 124);
+    }
+    #top_actions_section {
+        display: flex !important;
+        align-items: center !important;
+    }
+
+}
+
+@media (max-width:599px){
+
+    .top-margin{
+        margin-top: 20px;
+    }
+
+
+
+}
+
+.user_list_item.active .user_list_arrow_icon{
+    transform: rotate(180deg);
+}
+
+.user_list_item.active , .user_list_item.active .collapsible-header{
+    background-color: rgba(201, 201, 201, 0.406);
 }
